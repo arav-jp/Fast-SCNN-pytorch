@@ -27,7 +27,7 @@ A PyTorch implementation of [Fast-SCNN: Fast Semantic Segmentation Network](http
 - You can download [cityscapes](https://www.cityscapes-dataset.com/) from [here](https://www.cityscapes-dataset.com/downloads/). Note: please download [leftImg8bit_trainvaltest.zip(11GB)](https://www.cityscapes-dataset.com/file-handling/?packageID=4) and [gtFine_trainvaltest(241MB)](https://www.cityscapes-dataset.com/file-handling/?packageID=1).
 
 ## Training-Fast-SCNN
-- By default, we assume you have downloaded the cityscapes dataset in the `./datasets/citys` dir.
+- By default, we assume you have downloaded the cityscapes datasets (`gtFine` and `leftImg8bit`) in the `./datasets/citys` dir.
 - To train Fast-SCNN using the train script the parameters listed in `train.py` as a flag or manually change them.
 ```Shell
 python train.py --model fast_scnn --dataset citys
