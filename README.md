@@ -42,7 +42,6 @@ python eval.py
 ## Demo
 Running a demo:
 ```Shell
-python demo.py --model fast_scnn --input-pic './png/berlin_000000_000019_leftImg8bit.png'
 python demo.py --model fast_scnn --input-pic './png/frankfurt_000001_058914_leftImg8bit.png'
 ```
 
